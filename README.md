@@ -4,23 +4,19 @@
 
 ### aws-cli
 Install:
-[https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+[Install aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-Configure:
-`aws configure`
+Configure: `aws configure`
 
-Set profile:
-`export AWS_PROFILE=<profile>`
+Set profile: `export AWS_PROFILE=<profile>`
 
 ### kubectl
-Install:
-[https://kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
+[Install kubectl](https://kubernetes.io/docs/tasks/tools/)
 
 ### eksctl
 [Install eksctl](https://eksctl.io/installation/)
 
-Create cluster:
-`eksctl create cluster --name <cluster-name> --region <region-code>`
+Create cluster: `eksctl create cluster --name <cluster-name> --region <region-code>`
 
 
 ## Context Management
